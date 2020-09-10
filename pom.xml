@@ -32,23 +32,10 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudHubDeployment>
-
-						<username>rvoleti</username>
-
-						<password>${password}</password>
-
-						<workers>1</workers>
-
-						<workerType>Micro</workerType>
-
-						<environment>Sandbox</environment>
-
+					<standaloneDeployment>
 						<muleVersion>4.3.0</muleVersion>
-
-						<applicationName>r3-training4-american-ws</applicationName>
-						<!-- -->
-					</cloudHubDeployment>
+						<muleHome>${mule.home}</muleHome>
+					</standaloneDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
