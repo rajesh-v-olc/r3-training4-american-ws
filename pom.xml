@@ -36,7 +36,7 @@
 
 						<username>rvoleti</username>
 
-						<password>{password}</password>
+						<password>${password}</password>
 
 						<workers>1</workers>
 
@@ -44,9 +44,9 @@
 
 						<environment>Sandbox</environment>
 
-						<muleVersion>4.3</muleVersion>
+						<muleVersion>4.3.0</muleVersion>
 
-						<applicationName>Demo-Application</applicationName>
+						<applicationName>r3-training4-american-ws</applicationName>
 						<!-- -->
 					</cloudHubDeployment>
 				</configuration>
