@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="r3-training4-american-wsFlow" doc:id="a2ebc25f-c0a3-4109-a73f-321977d30ef2" >
 		<http:listener doc:name="Listener" doc:id="7cd78575-26fd-402e-82ff-8758363b0fda" config-ref="HTTP_Listener_config" path="/flights"/>
-		<set-payload value="Flight Info" doc:name="Set Payload" doc:id="09b4cc1e-d50c-4b01-a888-d71dab4008c7" />
+		<set-payload value="Polling git" doc:name="Set Payload" doc:id="09b4cc1e-d50c-4b01-a888-d71dab4008c7" />
 		<logger level="INFO" doc:name="Logger" doc:id="0ec07bf0-40a4-4eff-b351-6efb9e77f2e8" message="Rajesh from Studio"/>
 	</flow>
 </mule>
