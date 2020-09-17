@@ -6,7 +6,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>r3-training4-american-ws</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>3.0.0</version>
 	<packaging>mule-application</packaging>
 
 	<name>r3-training4-american-ws</name>
@@ -94,5 +94,19 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+    
+    <!-- Rajesh added below while testing SonaType Nexus Repos -->
+    <distributionManagement>
+        <repository>
+            <id>rajesh-release</id>
+            <name>Rajesh Release Repository</name>
+            <url>http://52.53.204.107:8081/repository/rajesh-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>rajesh-snapshot</id>
+            <name>Rajesh Snapshot Repository</name>
+            <url>http://52.53.204.107:8081/repository/rajesh-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
