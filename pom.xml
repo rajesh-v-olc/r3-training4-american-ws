@@ -100,12 +100,12 @@
         <repository>
             <id>rajesh-release</id>
             <name>Rajesh Release Repository</name>
-            <url>http://52.53.204.107:8081/repository/rajesh-release/</url>
+            <url>http://54.241.122.236:8081/repository/rajesh-release/</url>
         </repository>
         <snapshotRepository>
             <id>rajesh-snapshot</id>
             <name>Rajesh Snapshot Repository</name>
-            <url>http://52.53.204.107:8081/repository/rajesh-snapshot/</url>
+            <url>http://54.241.122.236:8081/repository/rajesh-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 
