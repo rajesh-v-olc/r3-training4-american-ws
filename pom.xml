@@ -6,7 +6,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>r3-training4-american-ws</artifactId>
-	<version>1.0.0</version>
+	<version>2.0.0</version>
 	<packaging>mule-application</packaging>
 
 	<name>r3-training4-american-ws</name>
