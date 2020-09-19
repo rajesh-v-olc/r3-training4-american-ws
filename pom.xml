@@ -8,7 +8,7 @@
 	<artifactId>r3-training4-american-ws</artifactId>
 	<version>6.0.0</version>
 	<packaging>mule-application</packaging>
-
+ 
 	<name>r3-training4-american-ws</name>
 
 	<properties>
