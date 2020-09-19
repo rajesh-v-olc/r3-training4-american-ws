@@ -6,7 +6,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>r3-training4-american-ws</artifactId>
-	<version>2.0.0</version>
+	<version>3.0.0</version>
 	<packaging>mule-application</packaging>
 
 	<name>r3-training4-american-ws</name>
@@ -67,14 +67,13 @@
 			<version>1.2.0</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
-<!-- 		<dependency>
+ 		<dependency>
 			<groupId>com.mycompany</groupId>
 			<artifactId>r3-training4-american-ws</artifactId>
 			<version>2.0.0</version>
 			<classifier>mule-application</classifier>
 			<scope>provided</scope>
 		</dependency>
--->
 	</dependencies>
 
 	<repositories>
