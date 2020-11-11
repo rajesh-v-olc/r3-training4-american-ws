@@ -9,7 +9,7 @@
 	<version>3.0.0</version>
 	<packaging>mule-application</packaging>
 
-	<name>r3-training4-american-ws</name>
+	<name>r3-training4-american-ws</name> 
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
