@@ -90,13 +90,12 @@
 			<layout>default</layout>
 		</repository>
         <!-- Rajesh added below while testing downloading from Sonatype nexus -->
-        <!-- Rajesh commented this on Nov 10 
         <repository>
             <id>rajesh-release</id>
             <name>Rajesh Release Repository</name>
             <url>http://localhost:8081/repository/rajesh-release/</url>
 			<layout>default</layout>
-        </repository>  -->
+        </repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
@@ -111,7 +110,6 @@
 	</pluginRepositories>
     
     <!-- Rajesh added below while testing SonaType Nexus Repos -->
-    <!-- Rajesh commented this on Nov 10 
     <distributionManagement>
         <repository>
             <id>rajesh-release</id>
@@ -124,5 +122,5 @@
             <url>http://localhost:8081/repository/rajesh-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
- -->
+
 </project>
