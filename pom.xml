@@ -109,7 +109,7 @@
 		</pluginRepository>
 	</pluginRepositories>
     
-    <!-- Rajesh added below while testing SonaType Nexus Repos -->
+    <!-- Rajesh added below while testing SonaType Nexus Repos  -->
     <distributionManagement>
         <repository>
             <id>rajesh-release</id>
